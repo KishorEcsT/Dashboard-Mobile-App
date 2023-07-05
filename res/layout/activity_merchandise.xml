@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Merchandise">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="top"
+        android:layout_marginStart="14sp"
+        android:src="@drawable/merchlogoapp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jerseyonethree"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="391dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jerseyonetwo"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="144dp"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jerseyoneone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginBottom="144dp"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jerseytwoonw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginBottom="328dp"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jerseytwothree"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginBottom="512dp"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jersryone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="bottom"
+        android:text="For Orders Contact on whatsapp - 9566813433"
+        android:textSize="25dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/analbg">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/analysisText"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Analysis"
+        android:textColor="@color/lavender"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="46dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/analysisLinear"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/analysisText">
+
+
+
+
+                <ImageView
+                    android:id="@+id/analysisImageOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bargraphone"
+                    android:layout_marginTop="0dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/analysisLinearTwo"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/analysisLinear">
+        <ImageView
+            android:id="@+id/analysisImageTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bargraphtwo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/analysisLinearThree"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/analysisLinearTwo">
+        <ImageView
+            android:id="@+id/analysisImageThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/linegraph" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/analysisLinearFour"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/analysisLinearThree">
+        <ImageView
+            android:id="@+id/analysisImageFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/scatterplot" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/analysisLinearFive"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/analysisLinearThree">
+        <ImageView
+            android:id="@+id/analysisImageFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/piechart" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</ScrollView>
